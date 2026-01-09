@@ -1,0 +1,613 @@
+PS C:\Users\Ricardo\ISEW_proyecto_integrado_SINGLE> docker compose up -d --build
+[+] Running 0/13
+ - web6 Pulling                                                                                                          0.1s 
+[+] Running 0/13 Pulling                                                                                                 0.1s 
+ - web6 Pulling                                                                                                          0.2s 
+[+] Running 0/13 Pulling                                                                                                 0.2s 
+ - web6 Pulling                                                                                                          0.3s 
+[+] Running 0/13 Pulling                                                                                                 0.3s 
+ - web6 Pulling                                                                                                          0.4s 
+[+] Running 0/13 Pulling                                                                                                 0.4s 
+ - web6 Pulling                                                                                                          0.5s 
+[+] Running 0/13 Pulling                                                                                                 0.5s 
+ - web6 Pulling                                                                                                          0.6s 
+[+] Running 0/13 Pulling                                                                                                 0.6s 
+ - web6 Pulling                                                                                                          0.7s 
+[+] Running 0/13 Pulling                                                                                                 0.7s 
+ - web6 Pulling                                                                                                          0.8s 
+[+] Running 0/13 Pulling                                                                                                 0.8s 
+ - web6 Pulling                                                                                                          0.9s 
+[+] Running 0/13 Pulling                                                                                                 0.9s 
+ - web6 Pulling                                                                                                          1.0s 
+[+] Running 0/13 Pulling                                                                                                 1.0s 
+ - web6 Pulling                                                                                                          1.1s 
+[+] Running 0/13 Pulling                                                                                                 1.1s 
+ - web6 Pulling                                                                                                          1.2s 
+[+] Running 0/13 Pulling                                                                                                 1.2s 
+ - web6 Pulling                                                                                                          1.3s 
+[+] Running 3/13 Pulling                                                                                                 1.3s 
+ - web6 Pulling                                                                                                          1.4s 
+[+] Running 6/13 Pulling                                                                                                 1.4s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 6/13 Pulling                                                                                                 1.5s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 6/13 Pulling                                                                                                 1.6s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 6/13 Pulling                                                                                                 1.7s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 6/13 Pulling                                                                                                 1.8s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 6/13 Pulling                                                                                                 1.9s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 2.0s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 2.1s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 2.2s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 2.3s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 2.4s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 2.5s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 2.6s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 2.7s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 2.8s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 2.9s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/13 Pulling                                                                                                 3.0s 
+ ✘ web6 Error            pull access denied for isew-ricardo-apache-image, repository does not exist or m...             1.4s 
+[+] Running 7/18 Pulling                                                                                                 3.1s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 7/18 Pulling                                                                                                 3.2s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 7/18 Pulling                                                                                                 3.3s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 7/18 Pulling                                                                                                 3.4s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 7/18 Pulling                                                                                                 3.5s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 7/18 Pulling                                                                                                 3.6s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 7/41 Pulling                                                                                                 3.7s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 8/41 Pulling                                                                                                 3.8s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 7/49 Pulling                                                                                                 3.9s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 7/49 Pulling                                                                                                 4.0s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 4.1s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 4.2s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 4.3s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 4.4s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 4.5s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 4.6s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 4.7s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 4.8s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 4.9s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 5.0s 
+ ✘ web6 Error                  pull access denied for isew-ricardo-apache-image, repository does not exis...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 5.1s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 5.2s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 5.3s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 5.4s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 5.5s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 5.6s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 5.7s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 5.8s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 5.9s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 6.0s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 6.1s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 6.2s 
+ ✘ web6 Error                pull access denied for isew-ricardo-apache-image, repository does not exist ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 6.3s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 6.4s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 6.5s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 6.6s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 6.7s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 6.8s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 6.9s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 7.0s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 7.1s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 7.2s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 7.3s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 7.4s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 7.5s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 7.6s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 7.7s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 7.8s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 7.9s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 8.0s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 9/49 Pulling                                                                                                 8.1s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 17/49Pulling                                                                                                 8.2s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 19/49Pulling                                                                                                 8.3s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 19/49Pulling                                                                                                 8.4s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 19/49Pulling                                                                                                 8.5s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 19/49Pulling                                                                                                 8.6s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 19/49Pulling                                                                                                 8.7s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 19/49Pulling                                                                                                 8.8s 
+ ✘ web6 Error             pull access denied for isew-ricardo-apache-image, repository does not exist or ...             1.4s 
+[+] Running 22/49Pulling                                                                                                 8.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 22/49Pulling                                                                                                 9.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 22/49Pulling                                                                                                 9.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 22/49Pulling                                                                                                 9.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 22/49Pulling                                                                                                 9.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                 9.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                 9.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                 9.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                 9.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                 9.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                 9.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                10.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                10.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                10.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                10.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                10.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                10.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 25/49Pulling                                                                                                10.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 26/49Pulling                                                                                                10.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 28/49Pulling                                                                                                10.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 28/49Pulling                                                                                                10.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 28/49Pulling                                                                                                11.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 28/49Pulling                                                                                                11.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 28/49Pulling                                                                                                11.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 28/49Pulling                                                                                                11.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 28/49Pulling                                                                                                11.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 30/49Pulling                                                                                                11.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 30/49Pulling                                                                                                11.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 30/49Pulling                                                                                                11.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 30/49Pulling                                                                                                11.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 30/49Pulling                                                                                                11.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 30/49Pulling                                                                                                12.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 30/49Pulling                                                                                                12.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 30/49Pulling                                                                                                12.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 31/49Pulling                                                                                                12.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 32/49Pulling                                                                                                12.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                12.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                12.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                12.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                12.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                12.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                13.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                13.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                13.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                13.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                13.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                13.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                13.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                13.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                13.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                13.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                14.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                14.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 35/49Pulling                                                                                                14.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 37/49Pulling                                                                                                14.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 37/49Pulling                                                                                                14.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 37/49Pulling                                                                                                14.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 37/49Pulling                                                                                                14.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 37/49Pulling                                                                                                14.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 37/49Pulling                                                                                                14.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 37/49Pulling                                                                                                14.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 33/49Pulling                                                                                                15.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                15.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                15.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                15.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                15.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                15.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                15.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 37/49Pulling                                                                                                15.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                15.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                15.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                16.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                16.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                16.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                16.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                16.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 34/49Pulling                                                                                                16.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                16.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                16.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                16.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                16.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                17.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                17.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                17.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                17.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                17.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                17.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                17.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                17.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                17.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                17.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                18.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                18.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                18.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                18.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                18.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                18.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                18.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                18.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                18.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                18.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                19.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                19.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                19.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                19.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                19.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                19.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                19.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                19.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                19.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                19.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                20.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                20.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                20.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                20.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                20.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                20.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                20.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                20.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 38/49Pulling                                                                                                20.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                20.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                21.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                21.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                21.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                21.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                21.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                21.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                21.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                21.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                21.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                21.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                22.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                22.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                22.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                22.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                22.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                22.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                22.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                22.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                22.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                22.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 40/49Pulling                                                                                                23.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                23.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                23.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 40/49Pulling                                                                                                23.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 39/49Pulling                                                                                                23.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                23.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                23.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                23.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                23.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                23.9s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                24.0s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                24.1s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                24.2s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                24.3s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                24.4s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                24.5s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                24.6s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                24.7s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                24.8s 
+ ✘ web6 Error                   pull access denied for isew-ricardo-apache-image, repository does not exi...             1.4s 
+[+] Running 41/49Pulling                                                                                                24.9s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 41/49Pulling                                                                                                25.0s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 41/49Pulling                                                                                                25.1s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 41/49Pulling                                                                                                25.2s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 42/49Pulling                                                                                                25.3s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 42/49Pulling                                                                                                25.4s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 42/49Pulling                                                                                                25.5s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 43/49Pulling                                                                                                25.6s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 43/49Pulling                                                                                                25.7s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 43/49Pulling                                                                                                25.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 44/49Pulling                                                                                                25.9s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 44/49Pulling                                                                                                26.0s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 44/49Pulling                                                                                                26.1s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 44/49Pulling                                                                                                26.2s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 44/49Pulling                                                                                                26.3s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 44/49Pulling                                                                                                26.4s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 45/49Pulling                                                                                                26.5s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 46/49Pulling                                                                                                26.6s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulling                                                                                                26.7s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 47/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 48/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+[+] Running 49/49Pulled                                                                                                 26.8s 
+ ✘ web6 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+ ✔ locust-worker Pulled                                                                                                 26.8s 
+ ✘ web7 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+ ✔ cadvisor Pulled                                                                                                      23.5s 
+ ✔ grafana Pulled                                                                                                       28.9s 
+ ✘ web5 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.3s 
+ ✔ node-exporter Pulled                                                                                                 16.7s 
+ ✘ web8 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.3s 
+ ✔ prometheus Pulled                                                                                                    26.0s 
+ ✘ web2 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.4s 
+ ✔ locust-master Pulled                                                                                                 26.7s 
+ ✘ web4 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             2.0s 
+ ✘ web3 Error               pull access denied for isew-ricardo-apache-image, repository does not exist o...             1.3s 
+[+] Building 0.4s (7/7) FINISHED                                                                                              
+ => [internal] load local bake definitions                                                                               0.0s
+ => => reading from stdin 2.32kB                                                                                         0.0s
+ => [apache-benchmark internal] load build definition from Dockerfile                                                    0.1s
+ => => transferring dockerfile: 2B                                                                                       0.0s 
+ => [balanceador-nginx internal] load build definition from DockerfileNginxP3                                            0.1s 
+ => => transferring dockerfile: 100B                                                                                     0.0s 
+ => [web1 internal] load build definition from DockerfileApache                                                          0.1s 
+ => => transferring dockerfile: 216B                                                                                     0.0s 
+ => [web1_ssl internal] load build definition from Dockerfile                                                            0.1s 
+ => => transferring dockerfile: 2B                                                                                       0.0s 
+ => CANCELED [web1 internal] load metadata for docker.io/library/php:8.2-apache                                          0.1s
+ => CANCELED [balanceador-nginx internal] load metadata for docker.io/library/nginx:latest                               0.1s 
+target web1_ssl: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+
+
+
+View build details: docker-desktop://dashboard/build/default/default/346xtnwkawvy7r1hpgcmi2tbl
+
+PS C:\Users\Ricardo\ISEW_proyecto_integrado_SINGLE> 

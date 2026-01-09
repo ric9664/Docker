@@ -1,0 +1,1 @@
+Ver README dentro para pasos. Redes: crear red_web y red_servicios; luego docker compose up -d --build; generar certificados en p3_security/certs para SSL; endpoints de Nginx, Grafana, Prometheus, Locust.

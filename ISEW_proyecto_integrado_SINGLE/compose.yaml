@@ -1,0 +1,225 @@
+services:
+  web1:
+    build:
+      context: ./p1_apache
+      dockerfile: DockerfileApache
+    image: isew-ricardo-apache-image:p2
+    container_name: web1
+    volumes:
+      - ./web_app:/var/www/html
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.2
+      red_servicios:
+        ipv4_address: 192.168.20.2
+
+  web2:
+    image: isew-ricardo-apache-image:p2
+    container_name: web2
+    volumes:
+      - ./web_app:/var/www/html
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.3
+      red_servicios:
+        ipv4_address: 192.168.20.3
+    depends_on:
+      - web1
+
+  web3:
+    image: isew-ricardo-apache-image:p2
+    container_name: web3
+    volumes:
+      - ./web_app:/var/www/html
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.4
+      red_servicios:
+        ipv4_address: 192.168.20.4
+    depends_on:
+      - web1
+  web4:
+    image: isew-ricardo-apache-image:p2
+    container_name: web4
+    volumes:
+      - ./web_app:/var/www/html
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.5
+      red_servicios:
+        ipv4_address: 192.168.20.5
+    depends_on:
+      - web1
+
+  web5:
+    image: isew-ricardo-apache-image:p2
+    container_name: web5
+    volumes:
+      - ./web_app:/var/www/html
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.6
+      red_servicios:
+        ipv4_address: 192.168.20.6
+    depends_on:
+      - web1
+
+  web6:
+    image: isew-ricardo-apache-image:p2
+    container_name: web6
+    volumes:
+      - ./web_app:/var/www/html
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.7
+      red_servicios:
+        ipv4_address: 192.168.20.7
+    depends_on:
+      - web1
+
+  web7:
+    image: isew-ricardo-apache-image:p2
+    container_name: web7
+    volumes:
+      - ./web_app:/var/www/html
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.8
+      red_servicios:
+        ipv4_address: 192.168.20.8
+    depends_on:
+      - web1
+
+  web8:
+    image: isew-ricardo-apache-image:p2
+    container_name: web8
+    volumes:
+      - ./web_app:/var/www/html
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.9
+      red_servicios:
+        ipv4_address: 192.168.20.9
+    depends_on:
+      - web1
+
+  balanceador-nginx:
+    build:
+      context: ./balancers/nginx
+      dockerfile: DockerfileNginxP3
+    image: isew-ricardo-nginx-image:p3
+    container_name: balanceador-nginx
+    volumes:
+      - ./balancers/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./p3_security/certs:/etc/nginx/ssl:r
+    ports:
+    - "80:80"      
+    - "443:443"    
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.50
+      red_servicios:
+        ipv4_address: 192.168.20.50
+    depends_on:
+      - web1
+      - web2
+      - web3
+      - web4
+      - web5
+      - web6
+      - web7
+      - web8
+  web1_ssl:
+    build:
+      context: ./p3_security/apache_ssl
+      dockerfile: DockerfileApacheP3
+    image: isew-ricardo-apache-image:p3
+    container_name: web1_ssl
+    volumes:
+      - ./web_app:/var/www/html
+      - ./p3_security/certs:/etc/apache2/ssl
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.12
+      red_servicios:
+        ipv4_address: 192.168.20.12
+    cap_add:
+      - NET_ADMIN
+  apache-benchmark:
+    build:
+      context: ./benchmarking/ab
+      dockerfile: DockerfileAB
+    image: isew-ricardo-ab-image:p4
+    container_name: apache_benchmark
+    command: ["ab", "-n", "10000", "-c", "100", "http://192.168.10.50/"]
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.60
+  locust-master:
+    image: locustio/locust:latest
+    container_name: locust_master
+    ports:
+      - "8089:8089"
+    volumes:
+      - ./benchmarking/locust:/mnt/locust
+    command: -f /mnt/locust/locustfile.py --master -H http://192.168.10.50/
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.70
+  locust-worker:
+    image: locustio/locust:latest
+    container_name: locust_worker
+    volumes:
+      - ./benchmarking/locust:/mnt/locust
+    command: -f /mnt/locust/locustfile.py --worker --master-host locust-master
+    depends_on:
+      - locust-master
+    networks:
+      red_web:
+        ipv4_address: 192.168.10.71
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    networks:
+      red_servicios:
+        ipv4_address: 192.168.20.60
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    ports:
+      - "3000:3000"
+    networks:
+      red_servicios:
+        ipv4_address: 192.168.20.70
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: node_exporter
+    ports:
+      - "9100:9100"
+    networks:
+      red_servicios:
+        ipv4_address: 192.168.20.61
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    ports:
+      - "8080:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    networks:
+      red_servicios:
+        ipv4_address: 192.168.20.62
+networks:
+  red_web:
+    external: true
+  red_servicios:
+    external: true

@@ -1,0 +1,29 @@
+
+FROM isew-ricardo-apache-image:p2
+
+# Paquetes necesarios (iptables para reglas, dos2unix para CRLF -> LF)
+RUN apt-get update && apt-get install -y iptables dos2unix && rm -rf /var/lib/apt/lists/*
+
+# Activar SSL y preparar carpeta de certificados
+RUN a2enmod ssl && mkdir -p /etc/apache2/ssl
+
+# Desactivar el sitio por defecto (usa los snakeoil y rompe si no están)
+RUN a2dissite default-ssl
+
+# Copiar y habilitar tu sitio SSL
+COPY student-apache-ssl.conf /etc/apache2/sites-available/student-apache-ssl.conf
+RUN a2ensite student-apache-ssl
+
+# Copiar entrypoint y script de iptables
+COPY entrypoint.sh /entrypoint.sh
+COPY student-iptables-web.sh /tuusuario_ricardo_iptables_web.sh
+
+# Permisos + convertir CRLF a LF con sed y dos2unix (todo en UNA línea)
+RUN chmod +x /entrypoint.sh /tuusuario_ricardo_iptables_web.sh \
+    && sed -i 's/\r$//' /entrypoint.sh /tuusuario_ricardo_iptables_web.sh \
+    && dos2unix /entrypoint.sh /tuusuario_ricardo_iptables_web.sh || true
+
+EXPOSE 443
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["apache2-foreground"]
+
